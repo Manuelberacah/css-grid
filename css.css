@@ -1,0 +1,6 @@
+.grid-main{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 100px;
+}
