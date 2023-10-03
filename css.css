@@ -1,6 +1,12 @@
 .grid-main{
     background-color: black;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 100px;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+    grid-template-rows:repeat(3, 200px);
+}
+.grid1 img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
 }
